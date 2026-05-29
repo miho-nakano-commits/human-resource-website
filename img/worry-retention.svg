@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="164" viewBox="0 0 164 164" role="img" aria-label="定着するか心配">
+  <rect width="164" height="164" rx="24" fill="#FFF1ED"/>
+  <g fill="none" stroke="#5C4A4A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="82" cy="55" r="24" fill="#F3CDBD"/>
+    <path d="M59 55c7-24 41-24 47 0"/>
+    <path d="M43 145c4-31 19-47 39-47s35 16 39 47"/>
+    <path d="M61 119h42"/>
+    <path d="M56 78c13 11 39 11 52 0"/>
+    <path d="M123 41c10 4 17 13 17 24 0 15-10 27-27 31"/>
+  </g>
+</svg>
