@@ -75,7 +75,7 @@ textarea {
 }
 
 .logo-link img {
-  width: 236px;
+  width: 320px;
   height: auto;
 }
 
@@ -902,8 +902,8 @@ textarea {
 .contact-message {
   padding: 22px 24px;
   color: var(--blue);
-  background: #f1f7ff;
-  border-left: 5px solid var(--orange);
+  background: var(--white);
+  border: 1px solid #d8e5f2;
   border-radius: 8px;
   font-weight: 900;
 }
@@ -991,7 +991,7 @@ textarea {
 }
 
 .footer-brand img {
-  width: 240px;
+  width: 320px;
   max-width: 100%;
   filter: brightness(0) invert(1);
 }
@@ -1108,7 +1108,7 @@ textarea {
   }
 
   .logo-link img {
-    width: 220px;
+    width: min(320px, 100%);
   }
 
   .header-cta {
