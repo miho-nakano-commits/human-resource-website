@@ -1,9 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="寄り添う支援">
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="企業と人材をつなぐ支援">
   <g fill="none" stroke="#681116" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="33" cy="31" r="10"/>
-    <circle cx="63" cy="31" r="10"/>
-    <path d="M17 73c3-15 12-23 22-23 4 0 7 1 10 3"/>
-    <path d="M79 73c-3-15-12-23-22-23-4 0-7 1-10 3"/>
-    <path d="M33 60c7 9 23 9 30 0"/>
+    <path d="M13 75V35h27v40" fill="#fff8f4"/>
+    <path d="M20 47h3M30 47h3M20 58h3M30 58h3"/>
+    <path d="M10 75h33"/>
+    <circle cx="72" cy="35" r="10" fill="#fff8f4"/>
+    <path d="M54 76c2-18 9-29 18-29s16 11 18 29"/>
+    <path d="M47 48h13" stroke="#c77a58"/>
+    <path d="M56 43l6 5-6 5" stroke="#c77a58"/>
+    <path d="M58 61H45" stroke="#c77a58"/>
+    <path d="M49 56l-6 5 6 5" stroke="#c77a58"/>
   </g>
 </svg>
