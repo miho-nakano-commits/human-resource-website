@@ -1352,6 +1352,10 @@ textarea {
     min-height: 0;
   }
 
+  .case-card img.case-image-top {
+    object-position: center top;
+  }
+
   .case-card > div {
     padding: 24px;
   }
