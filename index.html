@@ -13,7 +13,13 @@
       <a class="logo-link" href="index.html" aria-label="合同会社ヒューマンリソース ホーム">
         <img src="img/logo-hr.png" alt="合同会社ヒューマンリソース">
       </a>
-      <nav class="global-nav" aria-label="メインメニュー">
+      <button class="menu-toggle" type="button" aria-controls="global-nav" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">メニューを開く</span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="メインメニュー">
         <a class="is-active" href="index.html">ホーム</a>
         <a href="company.html">会社概要</a>
         <a href="services.html">事業紹介</a>
@@ -26,7 +32,7 @@
 
   <main>
     <section class="hero">
-      <img class="hero-image" src="img/hero.png" alt="外国人材と企業担当者が明るいオフィスで相談している様子">
+      <img class="hero-image" src="img/hero.jpg" alt="外国人材と企業担当者が明るいオフィスで相談している様子">
       <div class="hero-content">
         <p class="section-kicker">外国人材採用支援・登録支援機関</p>
         <h1>外国人材採用を、<br>もっと<span>安心</span>に。</h1>
@@ -97,19 +103,19 @@
         </div>
         <div class="industry-grid">
           <article class="industry-card">
-            <img class="industry-photo" src="img/industry-manufacturing.png" alt="製造業の現場で働くスタッフ">
+            <img class="industry-photo" src="img/industry-manufacturing.jpg" alt="製造業の現場で働くスタッフ">
             <div class="industry-label"><span><img src="img/icon-factory.svg" alt=""></span>製造業</div>
           </article>
           <article class="industry-card">
-            <img class="industry-photo" src="img/industry-care.png" alt="介護施設で利用者を支援するスタッフ">
+            <img class="industry-photo" src="img/industry-care.jpg" alt="介護施設で利用者を支援するスタッフ">
             <div class="industry-label"><span><img src="img/icon-heart.svg" alt=""></span>介護</div>
           </article>
           <article class="industry-card">
-            <img class="industry-photo" src="img/industry-food.png" alt="外食業の店舗で接客準備をするスタッフ">
+            <img class="industry-photo" src="img/industry-food.jpg" alt="外食業の店舗で接客準備をするスタッフ">
             <div class="industry-label"><span><img src="img/icon-utensils.svg" alt=""></span>外食業</div>
           </article>
           <article class="industry-card">
-            <img class="industry-photo" src="img/industry-construction.png" alt="建設現場で働くスタッフ">
+            <img class="industry-photo" src="img/industry-construction.jpg" alt="建設現場で働くスタッフ">
             <div class="industry-label"><span><img src="img/icon-hardhat.svg" alt=""></span>建設業</div>
           </article>
         </div>
@@ -118,7 +124,7 @@
     </section>
 
     <section class="message-band">
-      <img src="img/message-banner.png" alt="多様な人々が肩を寄せ合い街を見ている様子">
+      <img src="img/message-banner.jpg" alt="多様な人々が肩を寄せ合い街を見ている様子">
       <div class="message-content">
         <p class="section-kicker">私たちの想い</p>
         <h2>採用だけで終わらない支援を。</h2>
@@ -174,9 +180,9 @@
           <a class="button button-primary" href="contact.html">お問い合わせはこちら（無料相談）</a>
         </div>
         <div class="cta-photos" aria-hidden="true">
-          <img class="photo photo-large" src="img/contact-consultant.png" alt="">
-          <img class="photo photo-small photo-one" src="img/contact-workers.png" alt="">
-          <img class="photo photo-small photo-two" src="img/contact-meeting.png" alt="">
+          <img class="photo photo-large" src="img/contact-consultant.jpg" alt="">
+          <img class="photo photo-small photo-one" src="img/contact-workers.jpg" alt="">
+          <img class="photo photo-small photo-two" src="img/contact-meeting.jpg" alt="">
         </div>
       </div>
     </section>
@@ -210,5 +216,6 @@
     </div>
     <p class="copyright">© 合同会社ヒューマンリソース All Rights Reserved.</p>
   </footer>
+  <script src="js/site.js"></script>
 </body>
 </html>

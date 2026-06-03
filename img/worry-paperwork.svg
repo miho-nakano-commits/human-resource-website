@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="164" height="164" viewBox="0 0 164 164" role="img" aria-label="手続きが複雑そう">
   <rect width="164" height="164" rx="24" fill="#FFF2EE"/>
-  <g fill="none" stroke="#5D403B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="82" cy="55" r="24" fill="#F1D0BF"/>
-    <path d="M60 52c10-18 34-17 45 2"/>
-    <path d="M43 145c4-31 19-47 39-47s35 16 39 47"/>
-    <path d="M116 25h29v42h-29zM123 38h15M123 50h15"/>
-    <path d="M63 76c10 8 29 8 38 0"/>
+  <g fill="none" stroke="#681116" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 34h58l18 18v78H44z" fill="#fff"/>
+    <path d="M102 34v20h20"/>
+    <path d="M62 63h42M62 82h50M62 101h34"/>
+    <path d="M107 111l10 10 24-28" stroke="#c77a58"/>
+    <path d="M34 50h10M34 70h10M34 90h10" stroke="#c77a58"/>
   </g>
 </svg>

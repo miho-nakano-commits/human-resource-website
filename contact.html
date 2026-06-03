@@ -11,7 +11,13 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="logo-link" href="index.html" aria-label="合同会社ヒューマンリソース ホーム"><img src="img/logo-hr.png" alt="合同会社ヒューマンリソース"></a>
-      <nav class="global-nav" aria-label="メインメニュー">
+      <button class="menu-toggle" type="button" aria-controls="global-nav" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">メニューを開く</span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="メインメニュー">
         <a href="index.html">ホーム</a>
         <a href="company.html">会社概要</a>
         <a href="services.html">事業紹介</a>
@@ -37,7 +43,7 @@
           <h2>まずはお気軽にお問い合わせください。</h2>
           <p>「外国人採用が初めてで不安」「どんな人材が採用できるのか知りたい」「制度について詳しく聞きたい」そのようなご相談にも丁寧に対応いたします。</p>
           <div class="contact-photo-panel">
-            <img src="img/contact-meeting.png" alt="相談中の様子">
+            <img src="img/contact-meeting.jpg" alt="相談中の様子">
           </div>
           <p class="contact-message">企業様と外国人材、双方にとって安心できる支援を。合同会社ヒューマンリソースは、人に寄り添う支援を大切にしています。</p>
         </div>
@@ -81,6 +87,7 @@
     </div>
     <p class="copyright">© 合同会社ヒューマンリソース All Rights Reserved.</p>
   </footer>
+  <script src="js/site.js"></script>
   <script src="js/contact.js"></script>
 </body>
 </html>

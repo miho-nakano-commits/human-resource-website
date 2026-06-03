@@ -11,7 +11,13 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="logo-link" href="index.html" aria-label="合同会社ヒューマンリソース ホーム"><img src="img/logo-hr.png" alt="合同会社ヒューマンリソース"></a>
-      <nav class="global-nav" aria-label="メインメニュー">
+      <button class="menu-toggle" type="button" aria-controls="global-nav" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">メニューを開く</span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="メインメニュー">
         <a href="index.html">ホーム</a>
         <a href="company.html">会社概要</a>
         <a href="services.html">事業紹介</a>
@@ -34,7 +40,7 @@
     <section class="section">
       <div class="container case-grid">
         <article class="case-card">
-          <img src="img/industry-manufacturing.png" alt="製造業の現場">
+          <img src="img/industry-manufacturing.jpg" alt="製造業の現場">
           <div>
             <p class="case-label">製造業</p>
             <h2>長期就業につながった支援事例</h2>
@@ -43,7 +49,7 @@
           </div>
         </article>
         <article class="case-card">
-          <img src="img/industry-care.png" alt="介護分野で支援するスタッフ">
+          <img src="img/industry-care.jpg" alt="介護分野で支援するスタッフ">
           <div>
             <p class="case-label">介護業界</p>
             <h2>日本語学習支援との連携</h2>
@@ -52,7 +58,7 @@
           </div>
         </article>
         <article class="case-card">
-          <img src="img/contact-meeting.png" alt="面談で相談している様子">
+          <img src="img/contact-meeting.jpg" alt="面談で相談している様子">
           <div>
             <p class="case-label">キャリア支援</p>
             <h2>特定技能2号へのチャレンジ支援</h2>
@@ -97,5 +103,6 @@
     </div>
     <p class="copyright">© 合同会社ヒューマンリソース All Rights Reserved.</p>
   </footer>
+  <script src="js/site.js"></script>
 </body>
 </html>

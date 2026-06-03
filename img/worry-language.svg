@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="164" height="164" viewBox="0 0 164 164" role="img" aria-label="言語や文化の違いが不安">
   <rect width="164" height="164" rx="24" fill="#FFF2EE"/>
-  <g fill="none" stroke="#5D403B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="77" cy="58" r="25" fill="#F6D2BF"/>
-    <path d="M52 60c7-24 42-27 55 0"/>
-    <path d="M43 145c4-31 19-47 39-47s35 16 39 47"/>
-    <path d="M68 75c6 5 16 5 22 0"/>
-    <path d="M118 35h32v27h-12l-10 10V62h-10z"/>
-    <path d="M128 47h12"/>
+  <g fill="none" stroke="#681116" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 42h64v44H57L43 99V86H29z" fill="#fff"/>
+    <path d="M71 76h64v44h-13v14l-15-14H71z" fill="#fff"/>
+    <path d="M49 69l10-23 10 23M53 61h12"/>
+    <path d="M98 96h21M109 86v28" stroke="#c77a58"/>
+    <path d="M98 110c12 0 22-10 22-22" stroke="#c77a58"/>
   </g>
 </svg>
