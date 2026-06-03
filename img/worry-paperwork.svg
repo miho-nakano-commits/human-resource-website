@@ -4,7 +4,7 @@
     <path d="M44 34h58l18 18v78H44z" fill="#fff"/>
     <path d="M102 34v20h20"/>
     <path d="M62 63h42M62 82h50M62 101h34"/>
-    <path d="M107 111l10 10 24-28" stroke="#c77a58"/>
+    <path d="M67 116l10 10 22-27" stroke="#c77a58"/>
     <path d="M34 50h10M34 70h10M34 90h10" stroke="#c77a58"/>
   </g>
 </svg>
