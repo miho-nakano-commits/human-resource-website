@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   line-height: 1.8;
   background: #fffdfb;
   letter-spacing: 0;
+  overflow-x: clip;
 }
 
 img {
@@ -72,10 +74,13 @@ textarea {
 
 .logo-link {
   flex: 0 0 auto;
+  display: block;
+  width: min(300px, 100%);
+  max-width: 100%;
 }
 
 .logo-link img {
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 
@@ -1098,7 +1103,7 @@ textarea {
   .cta-inner,
   .footer-inner,
   .copyright {
-    width: min(100% - 28px, 1120px);
+    width: min(100% - 40px, 1120px);
   }
 
   .header-inner {
@@ -1106,7 +1111,7 @@ textarea {
   }
 
   .logo-link img {
-    width: min(320px, 100%);
+    width: 100%;
   }
 
   .header-cta {
