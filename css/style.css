@@ -1348,7 +1348,8 @@ textarea {
   }
 
   .case-card img {
-    min-height: 220px;
+    height: 190px;
+    min-height: 0;
   }
 
   .case-card > div {
@@ -1361,5 +1362,11 @@ textarea {
 
   .footer-inner {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .case-card img {
+    height: 168px;
   }
 }
