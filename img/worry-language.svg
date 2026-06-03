@@ -3,8 +3,7 @@
   <g fill="none" stroke="#681116" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
     <path d="M29 42h64v44H57L43 99V86H29z" fill="#fff"/>
     <path d="M71 76h64v44h-13v14l-15-14H71z" fill="#fff"/>
-    <path d="M49 69l10-23 10 23M53 61h12"/>
-    <path d="M98 96h21M109 86v28" stroke="#c77a58"/>
-    <path d="M98 110c12 0 22-10 22-22" stroke="#c77a58"/>
+    <text x="61" y="66" fill="#681116" stroke="none" text-anchor="middle" dominant-baseline="middle" font-family="Arial, sans-serif" font-size="32" font-weight="800">A</text>
+    <text x="104" y="102" fill="#c77a58" stroke="none" text-anchor="middle" dominant-baseline="middle" font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif" font-size="30" font-weight="800">あ</text>
   </g>
 </svg>
