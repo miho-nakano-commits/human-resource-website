@@ -2,8 +2,6 @@
   <rect width="164" height="164" rx="24" fill="#FFF2EE"/>
   <g fill="none" stroke="#681116" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
     <path d="M82 35l42 16v28c0 29-17 45-42 58-25-13-42-29-42-58V51z" fill="#fff"/>
-    <path d="M64 83l13 13 28-31" stroke="#c77a58"/>
-    <path d="M116 98c-8 15-21 24-37 24-20 0-37-15-40-34"/>
-    <path d="M48 92l-10-7-7 10"/>
+    <path d="M62 83l15 15 31-35" stroke="#c77a58"/>
   </g>
 </svg>
