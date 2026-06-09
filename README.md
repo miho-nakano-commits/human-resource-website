@@ -11,19 +11,18 @@
 - `contact.html`: お問い合わせ
 - `css/style.css`: 共通スタイル
 - `js/contact.js`: お問い合わせフォーム送信設定
+- `send-mail.php`: お問い合わせ通知・自動返信メール送信
 - `img/`: 画像・アイコン素材
 
 ## お問い合わせフォーム
 
-通知先メールアドレスが決まったら、`js/contact.js` の `CONTACT_EMAIL_HERE` を通知先メールアドレスに置き換えてください。
+お問い合わせフォームはXserver上のPHPで送信します。
 
-例:
+- 管理者通知先: `human.kanazawa@gmail.com`
+- 自動返信メールの送信元表示: `合同会社ヒューマンリソース <human.kanazawa@gmail.com>`
 
-```js
-const CONTACT_EMAIL = 'info@example.com';
-```
-
-このフォームは FormSubmit を利用します。初回送信時に通知先メールアドレスへ確認メールが届くため、承認すると以後のお問い合わせ通知が届くようになります。
+送信先を変更する場合は、`send-mail.php` 内の `$adminEmail` と `$fromEmail` を変更してください。
+GitHub PagesではPHPが動かないため、フォーム送信機能はXserverへアップロードした環境で動作します。
 
 ## プレビュー
 

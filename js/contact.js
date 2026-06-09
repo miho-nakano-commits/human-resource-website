@@ -1,10 +1,9 @@
-const CONTACT_EMAIL = 'CONTACT_EMAIL_HERE';
-
 const contactForm = document.querySelector('[data-contact-form]');
 
 if (contactForm) {
   const status = contactForm.querySelector('[data-form-status]');
   const submitButton = contactForm.querySelector('button[type="submit"]');
+  const endpoint = contactForm.getAttribute('action') || 'send-mail.php';
 
   const setStatus = (message, type = '') => {
     status.textContent = message;
@@ -24,29 +23,23 @@ if (contactForm) {
       return;
     }
 
-    if (!CONTACT_EMAIL || CONTACT_EMAIL === 'CONTACT_EMAIL_HERE') {
-      setStatus('送信先メールアドレスの設定後に送信できます。', 'is-error');
-      return;
-    }
-
     const formData = new FormData(contactForm);
-    const payload = Object.fromEntries(formData.entries());
 
     submitButton.disabled = true;
     submitButton.textContent = '送信中...';
     setStatus('');
 
     try {
-      const response = await fetch(`https://formsubmit.co/ajax/${CONTACT_EMAIL}`, {
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: {
-          Accept: 'application/json',
-          'Content-Type': 'application/json'
+          Accept: 'application/json'
         },
-        body: JSON.stringify(payload)
+        body: formData
       });
+      const result = await response.json();
 
-      if (!response.ok) {
+      if (!response.ok || !result.ok) {
         throw new Error('Failed to send inquiry.');
       }
 
